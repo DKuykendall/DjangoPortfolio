@@ -24,7 +24,7 @@ SECRET_KEY = '3h95$xhazzqguom=)l=3yu2)ojlx$&v0(nf*(dvb=-bf%xc)a%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+STATIC_URL = '/static/'
 ALLOWED_HOSTS = []
 
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'Home',
 )
 
 MIDDLEWARE_CLASSES = (
